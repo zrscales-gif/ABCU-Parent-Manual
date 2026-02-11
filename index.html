@@ -95,11 +95,11 @@ body {
 /* This hides the page number on the very first thumbnail page */
 .page:first-of-type::after {
     display: none;
-}
-        .survey-button {
+}/* Survey Button Styling */
+.survey-button {
     display: inline-block;
-    background-color: var(--abcu-red);
-    color: white;
+    background-color: var(--abcu-gold);   /* Yellow */
+    color: var(--abcu-charcoal);          /* Dark text for contrast */
     padding: 12px 22px;
     margin-top: 10px;
     font-weight: 700;
@@ -107,10 +107,13 @@ body {
     border-radius: 6px;
     font-size: 11pt;
     letter-spacing: 1px;
+    border: 2px solid var(--abcu-red);
 }
 
 .survey-button:hover {
     background-color: var(--abcu-green);
+    color: white;
+}
 }
     </style>
 </head>
